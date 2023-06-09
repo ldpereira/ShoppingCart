@@ -16,5 +16,5 @@ struct FruitModel {
 }
 
 enum fruitTitle: String {
-    case apple, aprivot, avocado, banana, blackberry, cherry, dragonfruit, fig, grapes, kiwi, lemon, mango, muskmelon, orange, papaya, pear, pinapple, plum, raspberry, strawberry, watermelon
+    case apple, apricot, avocado, banana, blackberry, cherry, dragonfruit, fig, grapes, kiwi, lemon, mango, muskmelon, orange, papaya, pear, pineapple, plum, raspberry, strawbery, watermelon
 }
