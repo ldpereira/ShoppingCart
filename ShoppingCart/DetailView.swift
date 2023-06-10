@@ -57,6 +57,7 @@ struct DetailView: View {
                 .edgesIgnoringSafeArea(.top)
                 .clipShape(RoundedCornerShape.init(corners: [.bottomLeft, .bottomRight], radius: 50))
                 .frame(width: .infinity, height: .infinity, alignment: .top)
+                .edgesIgnoringSafeArea(.all)
                 .shadow(color: .gray, radius: 5, x: 5, y: 5)
                 .overlay(
                     Image(fruit.image)
@@ -103,17 +104,20 @@ struct DetailView: View {
                 Counter()
             }
             
-            Image("bg")
-                .resizable()
-                .frame(width: 350, height: 50, alignment: .center)
-                .cornerRadius(15)
-                .shadow(color: .gray, radius: 5, x: 5, y: 5)
-                .overlay(
-                    Text("Add to cart")
-                        .font(.system(.title3))
-                        .fontWeight(.medium)
-                )
-                .padding(.horizontal)
+            HStack {
+                Spacer()
+                Image("bg")
+                    .resizable()
+                    .frame(width: 350, height: 50, alignment: .center)
+                    .cornerRadius(15)
+                    .shadow(color: .gray, radius: 5, x: 5, y: 5)
+                    .overlay(
+                        Text("Add to cart")
+                            .font(.system(.title3))
+                            .fontWeight(.medium)
+                    )
+                Spacer()
+            }
         }
     }
 }

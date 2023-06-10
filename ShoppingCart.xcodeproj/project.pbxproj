@@ -18,6 +18,7 @@
 		764EFABA2A33BAFB0070B0C7 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764EFAB92A33BAFB0070B0C7 /* FruitCardView.swift */; };
 		764EFABC2A33BE4E0070B0C7 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764EFABB2A33BE4E0070B0C7 /* DetailView.swift */; };
 		764EFABE2A33BE830070B0C7 /* TopSellingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764EFABD2A33BE830070B0C7 /* TopSellingView.swift */; };
+		766101B82A347C7E000C04BF /* NearYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766101B72A347C7E000C04BF /* NearYouView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		764EFAB92A33BAFB0070B0C7 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		764EFABB2A33BE4E0070B0C7 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		764EFABD2A33BE830070B0C7 /* TopSellingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSellingView.swift; sourceTree = "<group>"; };
+		766101B72A347C7E000C04BF /* NearYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearYouView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				764EFAB92A33BAFB0070B0C7 /* FruitCardView.swift */,
 				764EFABB2A33BE4E0070B0C7 /* DetailView.swift */,
 				764EFABD2A33BE830070B0C7 /* TopSellingView.swift */,
+				766101B72A347C7E000C04BF /* NearYouView.swift */,
 			);
 			name = HomeScreenViews;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				764EFAB82A33B94A0070B0C7 /* NearYouData.swift in Sources */,
 				764EFAA42A33B2F70070B0C7 /* ContentView.swift in Sources */,
 				764EFAA22A33B2F70070B0C7 /* ShoppingCartApp.swift in Sources */,
+				766101B82A347C7E000C04BF /* NearYouView.swift in Sources */,
 				764EFABA2A33BAFB0070B0C7 /* FruitCardView.swift in Sources */,
 				764EFAB62A33B93A0070B0C7 /* ImageData.swift in Sources */,
 				764EFAB32A33B50C0070B0C7 /* HomeScreenView.swift in Sources */,
@@ -317,6 +321,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -345,6 +350,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
